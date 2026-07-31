@@ -12,7 +12,6 @@ A local-first single-page application that transcribes audio through [Ollama](ht
 
 ```bash
 npm install
-npx playwright install
 ```
 
 ## Run locally
@@ -29,8 +28,6 @@ The app starts at `http://localhost:5173`. With Ollama running locally, it auto-
 |---|---|
 | `npm run typecheck` | TypeScript compiler errors |
 | `npm run lint` | ESLint — strict rules, zero warnings |
-| `npm run test` | Vitest — unit and component tests with jsdom |
-| `npm run test:e2e` | Playwright — full browser scenarios against local dev server |
 | `npm run build` | Production build |
 
 ## Privacy
