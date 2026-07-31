@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+
+# Test artifacts
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.last-run.json
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE (JetBrains project files carry local machine paths)
+.idea/
+
+# TypeScript build info
+*.tsbuildinfo
